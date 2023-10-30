@@ -8,7 +8,7 @@ class Loading extends StatefulWidget {
 
 class _LoadingState extends State<Loading> {
 
-  String city = "delhi";
+  String city = "mumbai";
   String? temp;
   String? hum;
   String? air_speed;
@@ -78,7 +78,7 @@ class _LoadingState extends State<Loading> {
                   color: Colors.white
               ),),
             SizedBox(height: 10,),
-            Text("Made By Dhruv",
+            Text("Made By Ashish",
               style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w400,
